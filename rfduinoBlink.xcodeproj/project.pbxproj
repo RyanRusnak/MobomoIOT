@@ -7,20 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		490C7AFB18E0778100952D7D /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7ADD18E0778100952D7D /* Base64.m */; };
-		490C7AFC18E0778100952D7D /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AE018E0778100952D7D /* UNIBaseRequest.m */; };
-		490C7AFD18E0778100952D7D /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AE218E0778100952D7D /* UNIBodyRequest.m */; };
-		490C7AFE18E0778100952D7D /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AE418E0778100952D7D /* UNISimpleRequest.m */; };
-		490C7AFF18E0778100952D7D /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AE718E0778100952D7D /* UNIHTTPBinaryResponse.m */; };
-		490C7B0018E0778100952D7D /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AE918E0778100952D7D /* UNIHTTPJsonResponse.m */; };
-		490C7B0118E0778100952D7D /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AEB18E0778100952D7D /* UNIHTTPResponse.m */; };
-		490C7B0218E0778100952D7D /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AED18E0778100952D7D /* UNIHTTPStringResponse.m */; };
-		490C7B0318E0778100952D7D /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AEF18E0778100952D7D /* UNIJsonNode.m */; };
-		490C7B0418E0778100952D7D /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AF118E0778100952D7D /* UNIHTTPClientHelper.m */; };
-		490C7B0518E0778100952D7D /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AF318E0778100952D7D /* UNIHTTPRequest.m */; };
-		490C7B0618E0778100952D7D /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AF518E0778100952D7D /* UNIHTTPRequestWithBody.m */; };
-		490C7B0718E0778100952D7D /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AF818E0778100952D7D /* UNIRest.m */; };
-		490C7B0818E0778100952D7D /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C7AFA18E0778100952D7D /* UNIUrlConnection.m */; };
 		499848B418D8E1390065F299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499848B318D8E1390065F299 /* Foundation.framework */; };
 		499848B618D8E1390065F299 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499848B518D8E1390065F299 /* CoreGraphics.framework */; };
 		499848B818D8E1390065F299 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499848B718D8E1390065F299 /* UIKit.framework */; };
@@ -54,35 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		490C7ADC18E0778100952D7D /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
-		490C7ADD18E0778100952D7D /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
-		490C7ADF18E0778100952D7D /* UNIBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIBaseRequest.h; sourceTree = "<group>"; };
-		490C7AE018E0778100952D7D /* UNIBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIBaseRequest.m; sourceTree = "<group>"; };
-		490C7AE118E0778100952D7D /* UNIBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIBodyRequest.h; sourceTree = "<group>"; };
-		490C7AE218E0778100952D7D /* UNIBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIBodyRequest.m; sourceTree = "<group>"; };
-		490C7AE318E0778100952D7D /* UNISimpleRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNISimpleRequest.h; sourceTree = "<group>"; };
-		490C7AE418E0778100952D7D /* UNISimpleRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNISimpleRequest.m; sourceTree = "<group>"; };
-		490C7AE618E0778100952D7D /* UNIHTTPBinaryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPBinaryResponse.h; sourceTree = "<group>"; };
-		490C7AE718E0778100952D7D /* UNIHTTPBinaryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPBinaryResponse.m; sourceTree = "<group>"; };
-		490C7AE818E0778100952D7D /* UNIHTTPJsonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPJsonResponse.h; sourceTree = "<group>"; };
-		490C7AE918E0778100952D7D /* UNIHTTPJsonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPJsonResponse.m; sourceTree = "<group>"; };
-		490C7AEA18E0778100952D7D /* UNIHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPResponse.h; sourceTree = "<group>"; };
-		490C7AEB18E0778100952D7D /* UNIHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPResponse.m; sourceTree = "<group>"; };
-		490C7AEC18E0778100952D7D /* UNIHTTPStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPStringResponse.h; sourceTree = "<group>"; };
-		490C7AED18E0778100952D7D /* UNIHTTPStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPStringResponse.m; sourceTree = "<group>"; };
-		490C7AEE18E0778100952D7D /* UNIJsonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIJsonNode.h; sourceTree = "<group>"; };
-		490C7AEF18E0778100952D7D /* UNIJsonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIJsonNode.m; sourceTree = "<group>"; };
-		490C7AF018E0778100952D7D /* UNIHTTPClientHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPClientHelper.h; sourceTree = "<group>"; };
-		490C7AF118E0778100952D7D /* UNIHTTPClientHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPClientHelper.m; sourceTree = "<group>"; };
-		490C7AF218E0778100952D7D /* UNIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPRequest.h; sourceTree = "<group>"; };
-		490C7AF318E0778100952D7D /* UNIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPRequest.m; sourceTree = "<group>"; };
-		490C7AF418E0778100952D7D /* UNIHTTPRequestWithBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPRequestWithBody.h; sourceTree = "<group>"; };
-		490C7AF518E0778100952D7D /* UNIHTTPRequestWithBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPRequestWithBody.m; sourceTree = "<group>"; };
-		490C7AF618E0778100952D7D /* Unirest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Unirest-Prefix.pch"; sourceTree = "<group>"; };
-		490C7AF718E0778100952D7D /* UNIRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIRest.h; sourceTree = "<group>"; };
-		490C7AF818E0778100952D7D /* UNIRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIRest.m; sourceTree = "<group>"; };
-		490C7AF918E0778100952D7D /* UNIUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIUrlConnection.h; sourceTree = "<group>"; };
-		490C7AFA18E0778100952D7D /* UNIUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIUrlConnection.m; sourceTree = "<group>"; };
 		499848B018D8E1390065F299 /* rfduinoBlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rfduinoBlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		499848B318D8E1390065F299 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		499848B518D8E1390065F299 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -141,62 +98,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		490C7ADB18E0778100952D7D /* Unirest */ = {
-			isa = PBXGroup;
-			children = (
-				490C7ADC18E0778100952D7D /* Base64.h */,
-				490C7ADD18E0778100952D7D /* Base64.m */,
-				490C7ADE18E0778100952D7D /* HttpRequest */,
-				490C7AE518E0778100952D7D /* HttpResponse */,
-				490C7AF018E0778100952D7D /* UNIHTTPClientHelper.h */,
-				490C7AF118E0778100952D7D /* UNIHTTPClientHelper.m */,
-				490C7AF218E0778100952D7D /* UNIHTTPRequest.h */,
-				490C7AF318E0778100952D7D /* UNIHTTPRequest.m */,
-				490C7AF418E0778100952D7D /* UNIHTTPRequestWithBody.h */,
-				490C7AF518E0778100952D7D /* UNIHTTPRequestWithBody.m */,
-				490C7AF618E0778100952D7D /* Unirest-Prefix.pch */,
-				490C7AF718E0778100952D7D /* UNIRest.h */,
-				490C7AF818E0778100952D7D /* UNIRest.m */,
-				490C7AF918E0778100952D7D /* UNIUrlConnection.h */,
-				490C7AFA18E0778100952D7D /* UNIUrlConnection.m */,
-			);
-			path = Unirest;
-			sourceTree = "<group>";
-		};
-		490C7ADE18E0778100952D7D /* HttpRequest */ = {
-			isa = PBXGroup;
-			children = (
-				490C7ADF18E0778100952D7D /* UNIBaseRequest.h */,
-				490C7AE018E0778100952D7D /* UNIBaseRequest.m */,
-				490C7AE118E0778100952D7D /* UNIBodyRequest.h */,
-				490C7AE218E0778100952D7D /* UNIBodyRequest.m */,
-				490C7AE318E0778100952D7D /* UNISimpleRequest.h */,
-				490C7AE418E0778100952D7D /* UNISimpleRequest.m */,
-			);
-			path = HttpRequest;
-			sourceTree = "<group>";
-		};
-		490C7AE518E0778100952D7D /* HttpResponse */ = {
-			isa = PBXGroup;
-			children = (
-				490C7AE618E0778100952D7D /* UNIHTTPBinaryResponse.h */,
-				490C7AE718E0778100952D7D /* UNIHTTPBinaryResponse.m */,
-				490C7AE818E0778100952D7D /* UNIHTTPJsonResponse.h */,
-				490C7AE918E0778100952D7D /* UNIHTTPJsonResponse.m */,
-				490C7AEA18E0778100952D7D /* UNIHTTPResponse.h */,
-				490C7AEB18E0778100952D7D /* UNIHTTPResponse.m */,
-				490C7AEC18E0778100952D7D /* UNIHTTPStringResponse.h */,
-				490C7AED18E0778100952D7D /* UNIHTTPStringResponse.m */,
-				490C7AEE18E0778100952D7D /* UNIJsonNode.h */,
-				490C7AEF18E0778100952D7D /* UNIJsonNode.m */,
-			);
-			path = HttpResponse;
-			sourceTree = "<group>";
-		};
 		499848A718D8E1390065F299 = {
 			isa = PBXGroup;
 			children = (
-				490C7ADB18E0778100952D7D /* Unirest */,
 				499848EB18D8E1830065F299 /* rfduino */,
 				499848B918D8E1390065F299 /* rfduinoBlink */,
 				499848DB18D8E1390065F299 /* rfduinoBlinkTests */,
@@ -385,27 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490C7AFB18E0778100952D7D /* Base64.m in Sources */,
 				499848F918D8E1830065F299 /* CustomCellBackground.m in Sources */,
-				490C7B0718E0778100952D7D /* UNIRest.m in Sources */,
 				499848FB18D8E1830065F299 /* RfduinoManager.m in Sources */,
-				490C7B0218E0778100952D7D /* UNIHTTPStringResponse.m in Sources */,
-				490C7B0318E0778100952D7D /* UNIJsonNode.m in Sources */,
-				490C7AFE18E0778100952D7D /* UNISimpleRequest.m in Sources */,
-				490C7B0618E0778100952D7D /* UNIHTTPRequestWithBody.m in Sources */,
-				490C7B0518E0778100952D7D /* UNIHTTPRequest.m in Sources */,
 				499848CD18D8E1390065F299 /* AppViewController.m in Sources */,
-				490C7B0818E0778100952D7D /* UNIUrlConnection.m in Sources */,
 				499848C018D8E1390065F299 /* main.m in Sources */,
 				499848FC18D8E1830065F299 /* ScanViewController.m in Sources */,
-				490C7B0118E0778100952D7D /* UNIHTTPResponse.m in Sources */,
 				499848F818D8E1830065F299 /* AppDelegate.m in Sources */,
 				499848FA18D8E1830065F299 /* RFduino.m in Sources */,
-				490C7AFD18E0778100952D7D /* UNIBodyRequest.m in Sources */,
-				490C7B0418E0778100952D7D /* UNIHTTPClientHelper.m in Sources */,
-				490C7AFF18E0778100952D7D /* UNIHTTPBinaryResponse.m in Sources */,
-				490C7AFC18E0778100952D7D /* UNIBaseRequest.m in Sources */,
-				490C7B0018E0778100952D7D /* UNIHTTPJsonResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

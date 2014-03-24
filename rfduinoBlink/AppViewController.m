@@ -21,21 +21,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     rfduino.delegate = self;
-    
-    NSDictionary* headers = @{@"accept": @"application/json"};
-    NSDictionary* parameters = @{@"q": @"23javascript"};
-    
-    [[UNIRest post:^(UNISimpleRequest* request) {
-        [request setUrl:@"https://api.twitter.com/1.1/search/tweets.json"];
-        [request setHeaders:headers];
-        [request setParameters:parameters];
-    }] asJsonAsync:^(UNIHTTPJsonResponse* response, NSError *error) {
-        // This is the asyncronous callback block
-        NSInteger* code = [response code];
-        NSDictionary* responseHeaders = [response headers];
-        UNIJsonNode* body = [response body];
-        NSData* rawBody = [response rawBody];
-    }];
 }
 
 - (void)didReceiveMemoryWarning

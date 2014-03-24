@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9CA5C3E7-0AAF-4C73-A1D1-6F0C02C32903</string>
+	<key>IDESourceControlProjectName</key>
+	<string>rfduinoBlink</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>84A9B3F0-6A12-4917-84B2-238205E9D1E2</key>
+		<string>https://github.com/RyanRusnak/MobomoIOT.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>rfduinoBlink.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>84A9B3F0-6A12-4917-84B2-238205E9D1E2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/RyanRusnak/MobomoIOT.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>84A9B3F0-6A12-4917-84B2-238205E9D1E2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>84A9B3F0-6A12-4917-84B2-238205E9D1E2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rfduinoBlinkRemote</string>
+		</dict>
+	</array>
+</dict>
+</plist>

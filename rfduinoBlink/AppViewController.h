@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UNIRest.h"
 #import "RFduinoDelegate.h"
 #import "RFduino.h"
 
